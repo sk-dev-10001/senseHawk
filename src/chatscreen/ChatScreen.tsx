@@ -12,7 +12,7 @@ import MapboxGL from '@rnmapbox/maps';
 import {useFocusEffect} from '@react-navigation/native';
 
 const accessToken =
-  'sk.eyJ1Ijoic29tdmVlcmt1bWFyIiwiYSI6ImNsa290Y2ZhdjA0MGszaXA2bjZ2OTlqengifQ.Fj0jjLM9CpqjZYPnGfuwNg';
+  '';
 
 MapboxGL.setWellKnownTileServer(MapboxGL.TileServers.Mapbox);
 MapboxGL.setAccessToken(accessToken);

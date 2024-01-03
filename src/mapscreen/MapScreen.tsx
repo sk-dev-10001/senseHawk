@@ -3,7 +3,7 @@ import {View, Text, TouchableOpacity, Platform} from 'react-native';
 import styles from './styles';
 
 const accessToken =
-  'sk.eyJ1Ijoic29tdmVlcmt1bWFyIiwiYSI6ImNsa290Y2ZhdjA0MGszaXA2bjZ2OTlqengifQ.Fj0jjLM9CpqjZYPnGfuwNg';
+  '';
 import MapboxGL from '@rnmapbox/maps';
 import Mapbox from '@rnmapbox/maps';
 import generateCoordinatesList, {getDataFromStorage} from '../utils/commonOps';
